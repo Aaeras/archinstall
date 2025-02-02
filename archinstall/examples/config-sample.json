@@ -121,9 +121,14 @@
     "packages": ["feh", "timeshift"],
     "parallel downloads": 0,
     "profile_config": {
-        "gfx_driver": "All open-source (default)",
+        "gfx_driver": "All open-source",
         "greeter": "sddm",
         "profile": {
+            "custom_settings": {
+                "Sway": {
+                    "seat_access": "polkit"
+                }
+            },
             "details": [
                 "Sway"
             ],
