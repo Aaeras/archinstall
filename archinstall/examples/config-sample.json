@@ -19,10 +19,13 @@
                         ],
                         "fs_type": "fat32",
                         "size": {
-                            "sector_size": null,
-                            "unit": "MiB",
-                            "value": 1024
+                            "sector_size": {
+                            "unit": "B",
+                            "value": 512
                         },
+                        "unit": "GiB",
+                        "value": 1
+                    },
                         "mount_options": [],
                         "mountpoint": "/boot",
                         "obj_id": "2c3fa2d5-2c79-4fab-86ec-22d0ea1543c0",
@@ -64,7 +67,7 @@
                             "value": 35
                         },
                         "mount_options": [],
-                        "mountpoint": "/root",
+                        "mountpoint": "/",
                         "obj_id": "3e7018a0-363b-4d05-ab83-8e82d13db208",
                         "start": {
                             "sector_size": null,
