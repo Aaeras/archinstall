@@ -137,7 +137,20 @@
     "mirror_config": {
       "mirror-regions": {
         "Australia": [
-          "http://archlinux.mirror.digitalpacific.com.au/$repo/os/$arch"
+          "http://mirror.aarnet.edu.au/pub/archlinux/$repo/os/$arch",
+          "http://ftp.iinet.net.au/pub/archlinux/$repo/os/$arch",
+          "http://mirror.internode.on.net/pub/archlinux/$repo/os/$arch",
+          "http://ftp.swim.edu.au/pub/archlinux/$repo/os/$arch",
+          "http://syd.mirror.rackspace.com/archlinux/$repo/os/$arch",
+          "https://syd.mirror.rackspace.com/archlinux/$repo/os/$arch",
+          "http://archlinux.mirror.digitalpacific.com.au/$repo/os/$arch",
+          "https://archlinux.mirror.digitalpacific.com.au/$repo/os/$arch",
+          "http://au.mirrors.cicku.me/archlinux/$repo/os/$arch",
+          "https://au.mirrors.cicku.me/archlinux/$repo/os/$arch",
+          "http://gsl-syd.mm.fcix.net/archlinux/$repo/os/$arch",
+          "https://gsl-syd.mm.fcix.net/archlinux/$repo/os/$arch",
+          "https://sydney.mirror.pkgbuild.com/archlinux/$repo/os/$arch",
+          "https://au.arch/niranjan.co/$repo/os/$arch"
         ]
       }
     },
