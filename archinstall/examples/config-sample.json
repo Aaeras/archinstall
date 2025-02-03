@@ -14,6 +14,7 @@
                 "partitions": [
                     {
                         "btrfs": [],
+                        "dev_path": null,
                         "flags": [
                             "boot"
                         ],
@@ -42,6 +43,7 @@
                     },
                     {
                         "btrfs": [],
+                        "dev_path": null,
                         "flags": [
                             "swap"
                         ],
@@ -70,6 +72,7 @@
                     },
                     {
                         "btrfs": [],
+                        "dev_path": null,
                         "flags": [],
                         "fs_type": "ext4",
                         "size": {
@@ -96,6 +99,7 @@
                     },
                     {
                         "btrfs": [],
+                        "dev_path": null,
                         "flags": [],
                         "fs_type": "ext4",
                         "size": {
