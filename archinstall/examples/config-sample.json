@@ -30,9 +30,12 @@
                         "mountpoint": "/boot",
                         "obj_id": "2c3fa2d5-2c79-4fab-86ec-22d0ea1543c0",
                         "start": {
-                            "sector_size": null,
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
                             "unit": "MiB",
-                            "value": 1
+                            "value": 3
                         },
                         "status": "create",
                         "type": "primary"
