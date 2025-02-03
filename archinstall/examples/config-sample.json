@@ -7,7 +7,7 @@
     "bootloader": "Systemd-boot",
     "debug": false,
     "disk_config": {
-        "config_type": "default_layout",
+        "config_type": "manual_partitioning",
         "device_modifications": [
             {
                 "device": "/dev/nvme1n1",
@@ -42,20 +42,28 @@
                     },
                     {
                         "btrfs": [],
-                        "flags": [],
-                        "fs_type": "ext4",
+                        "flags": [
+                            "swap"
+                        ],
+                        "fs_type": "linux-swap",
                         "size": {
-                            "sector_size": null,
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
                             "unit": "GiB",
                             "value": 16
                         },
                         "mount_options": [],
-                        "mountpoint": "/",
+                        "mountpoint": "null",
                         "obj_id": "3e7018a0-363b-4d05-ab83-8e82d13db208",
                         "start": {
-                            "sector_size": null,
-                            "unit": "MiB",
-                            "value": 1025
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 512
                         },
                         "status": "create",
                         "type": "primary"
@@ -65,7 +73,10 @@
                         "flags": [],
                         "fs_type": "ext4",
                         "size": {
-                            "sector_size": null,
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
                             "unit": "GiB",
                             "value": 35
                         },
@@ -73,9 +84,12 @@
                         "mountpoint": "/",
                         "obj_id": "3e7018a0-363b-4d05-ab83-8e82d13db208",
                         "start": {
-                            "sector_size": null,
-                            "unit": "GiB",
-                            "value": 18
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 18254659584
                         },
                         "status": "create",
                         "type": "primary"
@@ -85,7 +99,10 @@
                         "flags": [],
                         "fs_type": "ext4",
                         "size": {
-                            "sector_size": null,
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
                             "unit": "Percent",
                             "value": 100
                         },
@@ -93,9 +110,12 @@
                         "mountpoint": "/home",
                         "obj_id": "ce58b139-f041-4a06-94da-1f8bad775d3f",
                         "start": {
-                            "sector_size": null,
-                            "unit": "GiB",
-                            "value": 53
+                            "sector_size": {
+                                "unit": "B",
+                                "value": 512
+                            },
+                            "unit": "B",
+                            "value": 55835623424
                         },
                         "status": "create",
                         "type": "primary"
